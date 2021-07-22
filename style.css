@@ -14,10 +14,12 @@ body {
   box-shadow: 12px 12px 20px 4px rgb(2, 12, 39);
 }
 .header_cv {
+  border: 2px black;
   display: flex;
   justify-content: start;
   flex-direction: row;
-  background-color: rgb(145, 148, 145);
+ /* background-color: rgb(145, 148, 145);*/
+ background: linear-gradient(45deg, #EECFBA, #C5DDE8);
   align-items: center;
  
 }
@@ -25,7 +27,7 @@ body {
   display: flex;
   justify-content: flex-start;
 
-  background-color: rgb(145, 148, 145);
+  /*background-color: rgb(145, 148, 145);*/
 }
 .header_name {
   display: flex;
@@ -40,13 +42,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: darkgrey;
+  background: linear-gradient(45deg, #f1c6a9, #b4d7e7);
+  
 }
 .main_contactS {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: darkgrey;
+ /* background-color: darkgrey;*/
 }
 .mymain_about {
   display: flex;
@@ -58,6 +61,8 @@ body {
 }
 
 .mymain_aboutdiv {
+  margin: 10px;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,7 +76,7 @@ body {
 }
 h3 {
   width: 211px;
-  border-bottom: 5px solid #d2dad9;
+  border-bottom: 5px solid #a6d3ce;
   padding-bottom: 5px;
   text-align: center;
   text-shadow: 6px 7px 7px #0c0c0c;
@@ -80,8 +85,8 @@ h3 {
 h4 {
   border-bottom: 2px solid #181717;
   padding-bottom: 1px;
-
-  margin-left: 100;
+  
+  
 }
 h1 {
   margin: 0 auto 8px;
@@ -99,7 +104,7 @@ h1 {
   text-align: center;
 }
 .fott {
-  background-color: darkgrey;
+  background: linear-gradient(45deg, #f1b58d, #8dcfee);
 }
 .myImage {
   margin: 40px;
